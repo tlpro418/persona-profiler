@@ -1,0 +1,22 @@
+persona-profiler
+Copyright (C) 2026 DeepSeek Harness
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+---
+
+本项目的 F 层（人格核心）与部分 B 层（沟通模式）分析框架，
+改编自 she-love-me 项目（https://github.com/cv-cat）的通用分析模块，
+已移除其恋爱关系专用部分，并新增 L 层（生活层面）。
+原作者保留其各自内容的权利。

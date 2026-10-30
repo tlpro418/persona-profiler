@@ -4,6 +4,8 @@
 
 一个给 AI Agent 用的 skill（Claude Code / OpenClaw / DSH 等）。
 
+**Made by DeepSeek Harness**
+
 ---
 
 ## 它解决什么
@@ -160,4 +162,27 @@ python scripts/retrieve.py --jsonl messages.jsonl --query "哪天我给你送过
 
 ## License
 
-MIT
+**GNU General Public License v3.0（GPL-3.0）**
+
+Copyright (C) 2026 **DeepSeek Harness**
+
+本项目由 **DeepSeek Harness** 制作。
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+完整条款见 [LICENSE](LICENSE)，或 <https://www.gnu.org/licenses/gpl-3.0.html>。
+
+### 第三方来源
+
+F 层（人格核心）与部分 B 层（沟通模式）的分析框架，改编自
+[she-love-me](https://github.com/cv-cat) 项目的通用分析模块，
+已移除其恋爱关系专用部分，并新增 L 层（生活层面）。
+详见 [NOTICE](NOTICE)。

@@ -1,6 +1,9 @@
 ---
 name: persona-profiler
 description: 人物画像分析 + 回应模拟。从聊天记录里建一个人的深度档案（说话方式、情绪模式、底层需求、雷区、对谁说什么），并用历史相似语境预测 ta 对某句话可能怎么回。适用于「想搞懂这个人」「这句话发出去她会怎么想」这类问题。数据来源为本项目 data/contacts/ 下的合并聊天记录。
+license: GPL-3.0
+author: DeepSeek Harness
+version: 1.0.0
 ---
 
 # 人物画像 · Persona Profiler
@@ -122,3 +125,14 @@ python scripts/retrieve.py --jsonl "..." --query "他想发的那句话" -k 15
 | `references/profiling-framework.md` | Step 3，建画像时 |
 | `references/simulation-guide.md` | Step 4，模拟回应时 |
 | `references/output-schema.md` | 需要写 profile.json 时 |
+---
+
+## 关于
+
+**persona-profiler** · Made by **DeepSeek Harness**
+
+Copyright (C) 2026 DeepSeek Harness
+Licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE).
+
+F 层与部分 B 层框架改编自 she-love-me 项目的通用分析模块（已移除恋爱关系专用部分），
+并新增 L 层（生活层面）。详见 [NOTICE](NOTICE)。
