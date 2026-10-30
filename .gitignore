@@ -1,0 +1,27 @@
+# 个人数据
+*.jsonl
+profile.json
+quant.json
+messages.json
+messages_with_voice.json
+*.db
+voice-cache/
+
+# 截图与导出
+*.7z
+*.zip
+screenshots/
+shots/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
